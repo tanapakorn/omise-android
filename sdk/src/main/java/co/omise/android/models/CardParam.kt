@@ -22,5 +22,11 @@ data class CardParam(
         @field:JsonProperty
         val city: String? = null,
         @field:JsonProperty("postal_code")
-        val postalCode: String? = null
+        val postalCode: String? = null,
+        @field:JsonProperty("country")
+        val country: String? = null,
+        @field:JsonProperty("street1")
+        val street1: String? = null,
+        @field:JsonProperty("state")
+        val state: String? = null
 )
